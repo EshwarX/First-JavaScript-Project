@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+  Name: Xavier Huang
+  Date: April 19th, 2022
+  Section: CSE 154 AE
+  This is the page.html page for the project I have done. Including
+  an app design project, academic research, as well as an art project.
+  It also includes my email as a way of contacting me.
+  It is linked to the style.css style sheet and index.js.
+  It has several interactive functions as well as a Calendarly plug-in widget.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>CP1</title>
+  </head>
+  <body>
+    <main>
+      <ul class="links">
+        <li class="li-inline"><a href="about.html">Home</a></li>
+        <li class="li-inline"><a href="page.html">My Projects</a></li>
+      </ul>
+      <section class="posts">
+        <article>
+          <span class="date">April 4, 2022</span>
+          <h2><a href="https://nationalcyberleague.org/">The National Cyber League</a></h2>
+          <iframe class="my-image" src="https://drive.google.com/file/d/1Ws1u-W-C4_uQSTLsrERfNuAvL6CELSBG/preview" allow="autoplay"></iframe>
+          <p>The National Cyber League (NCL) is the most inclusive, performance-based,
+            learning-centered collegiate cybersecurity competition today!
+            The NCL, powered by Cyber Skyline, enables students to prepare and
+            test themselves against practical cybersecurity challenges that
+            they will likely face in the workforce, such as identifying
+            hackers from forensic data, pentesting and auditing vulnerable
+            websites, recovering from ransomware attacks, and much more!
+            Me, as a student who's interested in cybersecurity, is
+            enrolled in this season's competition!
+          </p>
+        </article>
+        <section id="result-section">
+          <p id="result">Click here to check out the result!</p>
+        </section>
+        <article>
+          <header>
+            <span class="date">February 26, 2021</span>
+            <h2>
+              <a href="https://www.figma.com/proto/G3yBdSO2K26VoGqsorZp9t/AJ-3?node-id=70%3A36&scaling=scale-down&page-id=0%3A1&starting-point-node-id=70%3A36">
+                Safe Seattle
+              </a>
+            </h2>
+          </header>
+          <a href="https://docs.google.com/document/d/1bKdve3pi76JbEV25bfhfyYzYrZKMqgY7huiUe-MUqdw/edit?usp=sharing">
+            <img src="image/moodboard.png" alt="safe seattle">
+          </a>
+          <p>
+            According to Global estimates, published by WHO, about 35% women
+            worldwide experience violence (“any act of gender-based violence
+            that resuts in… physical, sexual or mental harm”) at least once
+            in their lifetimes (Violence Against Women). Such violence may
+            lead to serious damages and consequences of the victims’ well-beings.
+            Therefore, providing information about safety and delivering
+            it to the users would be the focus of our project, and this
+            is why we chose to make an interactive
+            map to allow users gain needed information.
+          </p>
+        </article>
+        <article>
+          <header>
+            <span class="date">September 8, 2021</span>
+            <h2><a href="https://docs.google.com/document/d/17J9xIhtveX3pfg-wb9FUj5I1C46GY965rlYvL6x6NJ0/edit?usp=sharing"> Real-Time Age Estimation System Based on Convolutional Neural Network</a></h2>
+          </header>
+          <a href="https://docs.google.com/document/d/17J9xIhtveX3pfg-wb9FUj5I1C46GY965rlYvL6x6NJ0/edit?usp=sharing"><img class="my-image" src="image/age-estimation.jpg" alt="ml-program"></a>
+          <p>
+            The demand for automatic face detection and age recognition
+            has become increasingly significant for the social media
+            industry and society. Most of the previous age estimation
+            models are based on the presumption that the input images
+            for their models are facial images of humans. In the
+            real-world scenario, however, the input might not be qualified enough.
+            Moreover, their estimation performance is yet to be improved.
+            This paper designs a novel system for age estimation based
+            on a convolutional neural network (CNN). First, a Caffe
+            model is used to filter out the input which does not contain
+            a face. Then, a CNN-based model is proposed to estimate ages
+            from the faces detected. The performance of the proposed model
+            is evaluated on the Adience benchmark dataset, surpassing a
+            few previous well-known models. Finally, the model is
+            deployed to the cloud to provide real-time services.
+          </p>
+        </article>
+        <article>
+          <h2>My Photo Gallery</h2>
+          <p> Click to show pictures</p>
+          <h3>1/6</h3>
+          <img id="first-img" src="image/blur.jpg" alt="Blur Image">
+          <h3>2/6</h3>
+          <img id="second-img" src="image/blur.jpg" alt="Blur Image">
+          <h3>3/6</h3>
+          <img id="third-img" src="image/blur.jpg" alt="Blur Image">
+          <h3>4/6</h3>
+          <img id="fourth-img" src="image/blur.jpg" alt="Blur Image">
+          <h3>5/6</h3>
+          <img id="fifth-img" src="image/blur.jpg" alt="Blur Image">
+          <h3>6/6</h3>
+          <img id="sixth-img" src="image/blur.jpg" alt="Blur Image">
+          <span>Image taken by Xavier Huang.</span>
+        </article>
+        <h3 id="book-time">Book A Time With Me!</h3>
+        <span id="hint">click and scroll down</span>
+        <section id="calendar" class="hidden">
+          <!-- Calendly inline widget begin -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/xavierhuang"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async>
+          </script>
+          <!-- Calendly inline widget end -->
+          <p>Click the button again to hide the calendar</p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
